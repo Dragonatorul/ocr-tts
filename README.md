@@ -55,8 +55,8 @@ Instructions on how to add a folder to the `PATH` variable can be found [here](d
 The script waits for a screenshot to be created in a given folder and compares that screenshot to a given template to 
 identify the section of the screenshot where the text can be found. In our use case that is a text box.
 
-For example given [this screenshot]("./test_data/SCREENSHOT.png) the template file will need to be 
-[this](./test_data/TEMPLATE_1.png)
+For example given [this screenshot](test_data/SCREENSHOT.png) the template file will need to be 
+[like this](test_data/TEMPLATE_1.png)
 
 The template file must match the resolution of the screenshot, so you will need to first play the game up until you 
 can take a first screenshot with the text box at your normal resolution, then create the template file by cropping out 
